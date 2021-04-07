@@ -8,7 +8,7 @@ import javax.persistence.Id;
 public class WebSeries {
 	
 	@Id
-    @GeneratedValue
+    
     private int id;
     private String name;
     private int seasons;
